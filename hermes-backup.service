@@ -1,0 +1,13 @@
+[Unit]
+Description=Encrypted Hermes setup backup to GitHub
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 /home/ubuntu/hermes-backup/backup.py
+Environment=GIT_TERMINAL_PROMPT=0
+Environment=GIT_ASKPASS=/home/ubuntu/.config/hermes-backup/git-askpass
+UMask=0077
+TimeoutStartSec=240
+Nice=10
