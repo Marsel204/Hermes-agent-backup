@@ -1,14 +1,14 @@
 {
   "source": {
-    "created_utc": "2026-11-23T15:35:16.554844+00:00",
-    "files": 23587,
-    "encrypted_bytes": 91356785,
-    "parts": 2
+    "created_utc": "2026-11-23T15:37:32.816981+00:00",
+    "files": 27140,
+    "encrypted_bytes": 96398265,
+    "parts": 3
   },
   "setup": {
-    "created_utc": "2026-11-23T15:35:17.394751+00:00",
+    "created_utc": "2026-11-23T15:37:33.488762+00:00",
     "files": 340,
-    "encrypted_bytes": 1616573,
+    "encrypted_bytes": 1631799,
     "parts": 1
   }
 }
